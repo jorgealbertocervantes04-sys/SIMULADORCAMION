@@ -1,4 +1,4 @@
-import SceneManager from "/core/SceneManager.js"
+import SceneManager from "./core/SceneManager.js"
 
 export default class App{
 
