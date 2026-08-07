@@ -1,0 +1,33 @@
+#toast{
+
+position:fixed;
+
+bottom:35px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+background:#1b2028;
+
+padding:16px 28px;
+
+color:white;
+
+border-radius:8px;
+
+opacity:0;
+
+transition:.35s;
+
+border-left:5px solid orange;
+
+z-index:9999;
+
+}
+
+#toast.visible{
+
+opacity:1;
+
+}

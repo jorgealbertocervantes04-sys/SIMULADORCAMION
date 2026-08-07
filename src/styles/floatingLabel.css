@@ -1,0 +1,29 @@
+.floatingLabel{
+
+position:absolute;
+
+padding:8px 12px;
+
+background:rgba(22,26,32,.92);
+
+color:#fff;
+
+border:1px solid #ff7a00;
+
+border-radius:8px;
+
+font-size:13px;
+
+pointer-events:none;
+
+transform:translate(-50%,-140%);
+
+opacity:0;
+
+transition:.25s;
+
+backdrop-filter:blur(8px);
+
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
